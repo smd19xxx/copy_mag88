@@ -1,1 +1,260 @@
+body{
+    font-family: "Arial", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Meiryo", "sans-serif";
+    font-size: 0.875rem;
+    color: #2a2a2a;
+    display: block;
+}
 
+.container{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.headding{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+p{
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+    color: #2a2a2a;
+}
+
+.btn{
+    display: inline-block;
+    padding: 15px 36px;
+    border: 1px solid #2a2a2a;
+    font-size: 12px;
+}
+
+/* ------header------- */
+header{
+    height: 730px;
+    margin-bottom: 85px;
+    background-image: url(img/top-img.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+header img{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+/* ------main------ */
+
+.magazine-wrapper{
+    margin-bottom: 80px;
+}
+
+.magazine-wrapper .title p{
+    max-width: 555px;
+    margin: 0 auto;
+}
+
+.magazine-wrapper .items{
+    width: 100%;
+    display: flex;
+    margin: 45px auto 0;
+    justify-content: space-between;
+}
+
+.magazine-wrapper .items .item{
+    width: 49%;
+    position: relative;
+}
+
+.item:hover{
+    opacity: 0.7;
+}
+
+.item img{
+    width: 100%;
+    height: auto;
+}
+
+.magazine-wrapper .items .item .txt-item{
+    max-width: 290px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 18px 0;
+    margin: 0 auto;
+    color: #fff;
+    position: absolute;
+    top: 35%;
+    left: 0;
+    right: 0;
+}
+
+.txt-item h2{
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
+.txt-item p{
+    font-weight: bold;
+}
+
+.fashion-wrapper{
+    height: 520px;
+    width: 100%;
+    background-image: url(img/fashion_img.jpg);
+    background-position: center;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.txt-container{
+    padding-top: 65px;
+}
+
+.txt-container p{
+    max-width: 560px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 25px 35px;
+}
+
+.txt-container a{
+    margin: 0 auto;
+}
+
+.txt-container a:hover{
+    opacity: 0.7;
+}
+
+.catalog-wrapper{
+    background-color: #f5f5f5;
+}
+
+.catalog{
+    width: 100%;
+    display: flex;
+    padding: 60px 0 124px;
+    justify-content: space-between;
+}
+
+.catalog .catalog-img{
+    box-sizing: border-box;
+    width: 48%;
+}
+
+.catalog-img img{
+    width: 100%;
+    height: auto;
+}
+
+.text-container{
+    width: 48%;
+    margin: auto 0;
+}
+
+.text-container h2{
+    margin-bottom: 45px;
+}
+
+.text-container p{
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.text-container p:last-child{
+    margin-bottom: 0;
+}
+
+
+.antique{
+    width: 100%;
+    display: flex;
+    padding-bottom: 65px;
+    justify-content: space-between;
+}
+
+.antique .catalog-img{
+    box-sizing: border-box;
+    width: 48%;
+}
+
+.antique .text-container .btn{
+    margin-top: 30px;
+}
+
+.antique .text-container .btn:hover{
+    opacity: 0.7;
+}
+
+.item-container{
+    background-color: #333;
+    background-position: center;
+    width: 100%;
+}
+
+.footer-top{
+    display: flex;
+    max-width: 1073px;
+    margin: 0 auto;
+    padding: 110px 5%;
+    justify-content: space-between;
+}
+
+.footer-logo{
+    width: 33%;
+    margin: auto 0;
+}
+
+.footer-logo img{
+    width: 120px;
+    height: 40px;
+}
+
+.footer-logo:hover{
+    opacity: 0.7;
+}
+
+.item-list{
+    width: 33%;
+    color: #fff;
+}
+
+.item-list li{
+    font-size: 12px;
+    line-height: 2;
+    list-style: none;
+}
+
+.item-list li::before{
+    content: "-";
+    margin-right: 5px;
+}
+
+.message{
+    width: 33%;
+    color: #fff;
+}
+
+.message p{
+    line-height: 2;
+    font-size: 12px;
+}
+
+.item-container .title{
+    padding-bottom: 18px;
+    font-size: 16px;
+}
+
+.copy{
+    height: 75px;
+    text-align: center;
+}
+
+.copy p{
+    line-height: 75px;
+    font-size: 12px;
+}
