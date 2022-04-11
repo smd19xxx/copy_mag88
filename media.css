@@ -1,1 +1,65 @@
+@media (max-width:900px){
+    .magazine-wrapper .items{
+        flex-direction: column;
+    }
 
+    .magazine-wrapper .items .item{
+        width: 100%;
+    }
+
+    .magazine-wrapper .items .item:first-child{
+        margin-bottom: 35px;
+    }
+
+    .catalog{
+        flex-direction: column;
+        padding: 30px 0 60px;
+    }
+
+    .catalog .catalog-img{
+        width: 100%;
+    }
+
+    .catalog .catalog-img{
+        margin-bottom: 68px;
+    }
+
+    .text-container{
+        width: 100%;
+    }
+
+    .antique{
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+
+    .antique .catalog-img{
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .item-container{
+        height: 475px;
+    }
+
+    .footer-top{
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+        padding: 30px 0;
+    }
+
+    .footer-logo{
+        margin: 0 auto 40px;
+        text-align: center;
+    }
+
+    .item-list{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .message{
+        width: 100%;
+    }
+}
