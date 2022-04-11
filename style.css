@@ -37,7 +37,7 @@ a{
 header{
     height: 730px;
     margin-bottom: 85px;
-    background-image: url(img/top-img.jpg);
+    background-image: url(https://smd19xxx.github.io/copy_mag88/top-img.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -105,7 +105,7 @@ header img{
 .fashion-wrapper{
     height: 520px;
     width: 100%;
-    background-image: url(img/fashion_img.jpg);
+    background-image: url(https://smd19xxx.github.io/copy_mag88/fashion_img.jpg);
     background-position: center;
     margin-bottom: 80px;
     text-align: center;
